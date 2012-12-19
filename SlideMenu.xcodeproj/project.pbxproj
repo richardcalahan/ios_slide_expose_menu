@@ -16,6 +16,7 @@
 		91272B5F167F8B4800AF0107 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 91272B5E167F8B4800AF0107 /* Default.png */; };
 		91272B61167F8B4800AF0107 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91272B60167F8B4800AF0107 /* Default@2x.png */; };
 		91272B63167F8B4800AF0107 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91272B62167F8B4800AF0107 /* Default-568h@2x.png */; };
+		91272B6E167F8BEA00AF0107 /* SlideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91272B6D167F8BEA00AF0107 /* SlideMenuController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		91272B5E167F8B4800AF0107 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		91272B60167F8B4800AF0107 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		91272B62167F8B4800AF0107 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		91272B6C167F8BEA00AF0107 /* SlideMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideMenuController.h; sourceTree = "<group>"; };
+		91272B6D167F8BEA00AF0107 /* SlideMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideMenuController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 			children = (
 				91272B5B167F8B4800AF0107 /* AppDelegate.h */,
 				91272B5C167F8B4800AF0107 /* AppDelegate.m */,
+				91272B6C167F8BEA00AF0107 /* SlideMenuController.h */,
+				91272B6D167F8BEA00AF0107 /* SlideMenuController.m */,
 				91272B53167F8B4800AF0107 /* Supporting Files */,
 			);
 			path = SlideMenu;
@@ -166,6 +171,7 @@
 			files = (
 				91272B59167F8B4800AF0107 /* main.m in Sources */,
 				91272B5D167F8B4800AF0107 /* AppDelegate.m in Sources */,
+				91272B6E167F8BEA00AF0107 /* SlideMenuController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

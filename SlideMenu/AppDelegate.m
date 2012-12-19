@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SlideMenuController.h"
 
 @implementation AppDelegate
 
@@ -16,6 +17,27 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    UIViewController *viewEController = [[UIViewController alloc] init];
+    [viewEController.view setBackgroundColor:[UIColor greenColor]];
+    [viewEController setTitle:@"Events"];
+
+    UIViewController *viewMController = [[UIViewController alloc] init];
+    [viewMController.view setBackgroundColor:[UIColor purpleColor]];
+    [viewMController setTitle:@"Chat"];
+    
+    UIViewController *viewController = [[UIViewController alloc] init];
+    [viewController.view setBackgroundColor:[UIColor blueColor]];
+    [viewController setTitle:@"Profile"];
+    
+    NSMutableArray *viewControllers = [[NSMutableArray alloc] init];
+    [viewControllers addObject:viewEController];
+    [viewControllers addObject:viewController];
+    [viewControllers addObject:viewMController];
+    
+    SlideMenuController *slideMenuController = [[SlideMenuController alloc] initWithViewControllers:viewControllers];
+    [self.window setRootViewController:slideMenuController];
+        
     return YES;
 }
 
